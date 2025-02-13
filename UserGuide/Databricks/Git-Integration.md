@@ -11,10 +11,10 @@
 - Manage code and notebooks outside Databricks.
 - Collaboration across multiple workspaces.
 
-## Workbook vs Repository
+## Notebook vs Repository
 
 - Once you connect Git to Databricks, you can create and use notebooks like normal and also push them to GitHub.
-- Workbook files in Git have a slightly different syntax than standard Jupyter Notebooks.
+- Notebook files in Git have a slightly different syntax than standard Jupyter Notebooks.
 
 ## Part 1: Setup Git/GitHub with Databricks
 
