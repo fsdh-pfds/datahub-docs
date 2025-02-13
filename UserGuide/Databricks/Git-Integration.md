@@ -49,7 +49,7 @@ Input the Git repository URL and then click Create Git folder.
 
 Once this is configured, you can see the folder in your workspace and navigate into it.
 
-Changes done from Databricks can be pushed to the repository using the built-in Git menu. Access it by right clicking in your repo files and clicking "Git...".
+Changes done from Databricks can be pushed to the repository using the built-in Git menu. Access it by right clicking in your repository files and clicking "Git...".
 ![image](/api/docs/UserGuide/Databricks/git-menu-2.png)
 
 This screen will allow you to commit and push changes, as well as pull existing changes.
