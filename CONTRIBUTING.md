@@ -50,3 +50,5 @@ Nous accueillons favorablement les contributions externes à notre projet. Cepen
 
 **Ne publiez aucun problème de sécurité sur le dépôt public!** Voir
 [SECURITY.md](SECURITY.md)
+
+
