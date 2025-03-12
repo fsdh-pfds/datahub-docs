@@ -4,9 +4,12 @@ name: Dev Deployment
 on:
   push:
     branches: ["main"]
+    paths:
+      - "!**.github/workflows/dev-docs-deploy.yml"  # Explicitly include this file
+      - "**"                                       # Include all other files (to be filtered by paths-ignore)
     paths-ignore:
-      - ".*" # Ignore all dotfiles
-      - ".*/**" # Ignore all dot directories and their contents
+      - ".*"          # Ignore root-level dotfiles
+      - ".*/**"       # Ignore root-level dot directories and their contents
 
 permissions:
   id-token: write
