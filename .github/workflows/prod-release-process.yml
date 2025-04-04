@@ -3,9 +3,7 @@ name: Generate Release PR
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - main
+
 jobs:
   release-please:
     runs-on: ubuntu-latest
