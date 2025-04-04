@@ -8,9 +8,6 @@ jobs:
   release-please:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Code
-        uses: actions/checkout@v4
-
       - name: Create App token
         id: create_token
         uses: fsdh-pfds/.github/.github/actions/create-app-token@main
@@ -18,9 +15,24 @@ jobs:
           app-id: ${{ vars.FSDH_DOCS_RELEASE_APP_ID }}
           private-key: ${{ secrets.FSDH_DOCS_RELEASE_APP_KEY }}
 
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        token: ${{ steps.create_token.outputs.token }}
+
       - name: Create Release PR
         uses: googleapis/release-please-action@v4
         with:
           release-type: simple
           config-file: release-please-config.json
           token: ${{ steps.create_token.outputs.token }}
+
+      - name: Read version from version.txt
+        id: get_version
+        run: |
+          VERSION=$(cat version.txt)
+          echo "version=$VERSION" >> $GITHUB_ENV
+
+      - name: Create Tag and Push
+        run: |
+          git tag -a "v${{ env.version }}" -m "Release v${{ env.version }}"
+          git push origin "v${{ env.version }}"
