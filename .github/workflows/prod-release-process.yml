@@ -4,9 +4,6 @@ on:
   workflow_dispatch:
   push: {}
 
-
-permissions: write-all
-
 jobs:
   release-please:
     runs-on: ubuntu-latest
@@ -14,8 +11,16 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v4
 
+      - name: Create App token
+        id: create_token
+        uses: fsdh-pfds/.github/.github/actions/create-app-token@main
+        with:
+          app-id: ${{ vars.FSDH_DOCS_RELEASE_APP_ID }}
+          private-key: ${{ secrets.FSDH_DOCS_RELEASE_APP_KEY }}
+
       - name: Create Release PR
         uses: googleapis/release-please-action@v4
         with:
           release-type: simple
+          token: ${{ steps.create_token.outputs.token }}
 
