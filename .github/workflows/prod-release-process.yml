@@ -16,8 +16,9 @@ jobs:
           private-key: ${{ secrets.FSDH_DOCS_RELEASE_APP_KEY }}
 
       - name: Checkout Code
-        uses: actions/checkout@v4
-        token: ${{ steps.create_token.outputs.token }}
+        uses: actions/checkout@v4 
+        with:
+          token: ${{ steps.create_token.outputs.token }}
 
       - name: Create Release PR
         uses: googleapis/release-please-action@v4
