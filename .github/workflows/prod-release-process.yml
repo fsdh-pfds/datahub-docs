@@ -1,4 +1,5 @@
-name: Release Please
+---
+name: Generate Release PR
 
 on:
   workflow_dispatch:
@@ -24,4 +25,3 @@ jobs:
         with:
           release-type: simple
           token: ${{ steps.create_token.outputs.token }}
-
