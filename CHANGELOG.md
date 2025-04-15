@@ -1,5 +1,41 @@
 # Changelog
 
+## [4.1.1-dev](https://github.com/fsdh-pfds/datahub-docs/compare/v4.1.1-dev...v4.1.1-dev) (2025-04-15)
+
+
+### ⚠ BREAKING CHANGES
+
+* test prereleASE
+
+### Features
+
+* new deployment pipeline ([0491cf3](https://github.com/fsdh-pfds/datahub-docs/commit/0491cf3aa1f21b8d12d502fa6c5abe0ae2837dbe))
+* release and tag ([8b31c14](https://github.com/fsdh-pfds/datahub-docs/commit/8b31c14a91e7995c78e092f95a30d7c8976a2611))
+* test prereleASE ([327ea83](https://github.com/fsdh-pfds/datahub-docs/commit/327ea833f620e613e40283f89a843bd1e6c56919))
+
+
+### Bug Fixes
+
+* action pipeline test ([9e86e41](https://github.com/fsdh-pfds/datahub-docs/commit/9e86e41fa6baacdb55a862c81eb4e63f701de488))
+* Cdgfsdfgsd ([eefe9f0](https://github.com/fsdh-pfds/datahub-docs/commit/eefe9f00d114c64335e2d808d533ad4f318027c4))
+* create version tag ([885c634](https://github.com/fsdh-pfds/datahub-docs/commit/885c6345ff5463ee9bcab90c2b94824508aabaed))
+* draft ([7581806](https://github.com/fsdh-pfds/datahub-docs/commit/7581806bb246846b4543ff21e5650585841ba8ec))
+* no longer needed ([2796749](https://github.com/fsdh-pfds/datahub-docs/commit/27967493e9df108aabb7f30e72e4c1fa322330f1))
+* pre-release ([790a270](https://github.com/fsdh-pfds/datahub-docs/commit/790a270374c1f0fb45dfd6c8f6c5436309df8149))
+* sdfgsdfg ([b586e2b](https://github.com/fsdh-pfds/datahub-docs/commit/b586e2b611a4ddd03b5a6e43fb51bd401bd623b5))
+* test ([4070a67](https://github.com/fsdh-pfds/datahub-docs/commit/4070a6764db38bc11a9bcfe87ae2461e50579032))
+* test3 ([462c54f](https://github.com/fsdh-pfds/datahub-docs/commit/462c54f9049b5edb67a3ca4ba3049828b0496558))
+* test3 ([488f98c](https://github.com/fsdh-pfds/datahub-docs/commit/488f98c6ca7fc36ca66952271f1b02ec170cd7f9))
+* test4 ([1d1d908](https://github.com/fsdh-pfds/datahub-docs/commit/1d1d9080e0596b713ba99074b9d3ec4d1295a0f1))
+* updated readme ([5ae728e](https://github.com/fsdh-pfds/datahub-docs/commit/5ae728e3f2422fd1b4d01797147cb30469dc872c))
+
+
+### Miscellaneous Chores
+
+* **main:** release 4.0.1 ([#29](https://github.com/fsdh-pfds/datahub-docs/issues/29)) ([9b5e9a0](https://github.com/fsdh-pfds/datahub-docs/commit/9b5e9a0010855212859713471a02e8369665aaa0))
+* release 4.1.0 ([eace301](https://github.com/fsdh-pfds/datahub-docs/commit/eace301a9d3ca205bbdb1b696f13cbfcc4573964))
+* release 4.1.1-dev ([4cee7cb](https://github.com/fsdh-pfds/datahub-docs/commit/4cee7cb64c02e49cc39c6116f862e25dea5d8604))
+
 ## [4.1.1-dev](https://github.com/fsdh-pfds/datahub-docs/compare/v4.1.0-dev...v4.1.1-dev) (2025-04-15)
 
 
