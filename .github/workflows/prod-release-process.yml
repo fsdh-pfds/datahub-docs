@@ -26,3 +26,4 @@ jobs:
           release-type: simple
           config-file: release-please-config.json
           token: ${{ steps.create_token.outputs.token }}
+          
