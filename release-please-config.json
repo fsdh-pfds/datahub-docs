@@ -1,5 +1,6 @@
 {
   "release-type": "simple",
+  "versioning": "prerelease",
   "changelog-path": "CHANGELOG.md",
   "prerelease": true,
   "pull-request-title-pattern": "chore: FSDH Docs release v${version}",
