@@ -3,7 +3,7 @@
   "versioning": "prerelease",
   "changelog-path": "CHANGELOG.md",
   "prerelease": true,
-  "pull-request-title-pattern": "chore: FSDH Docs release v${version}",
+  "pull-request-title-pattern": "chore: FSDH Docs release ${version}",
   "include-component-in-tag": false,
   "include-v-in-tag": false,
   "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json"
