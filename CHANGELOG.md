@@ -1,5 +1,16 @@
 # Changelog
 
+## [4.0.0](https://github.com/fsdh-pfds/datahub-docs/compare/v3.0.9...v4.0.0) (2025-04-15)
+
+
+### ⚠ BREAKING CHANGES
+
+* test prereleASE
+
+### Features
+
+* test prereleASE ([327ea83](https://github.com/fsdh-pfds/datahub-docs/commit/327ea833f620e613e40283f89a843bd1e6c56919))
+
 ## [3.0.9](https://github.com/fsdh-pfds/datahub-docs/compare/v3.0.8...v3.0.9) (2025-04-15)
 
 
