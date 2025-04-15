@@ -24,7 +24,7 @@ jobs:
           token: ${{ steps.create_token.outputs.token }}
 
       - name: Create Release PR
-        uses: b0lle/release-please@main
+        uses: b0lle/release-please@latest
         with:
           release-type: simple
           config-file: release-please-config.json
