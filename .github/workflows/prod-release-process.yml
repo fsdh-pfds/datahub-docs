@@ -24,7 +24,7 @@ jobs:
           token: ${{ steps.create_token.outputs.token }}
 
       - name: Create Release PR
-        uses: googleapis/release-please-action@v4
+        uses: b0lle/release-please@main
         with:
           release-type: simple
           config-file: release-please-config.json
