@@ -1,5 +1,17 @@
 # Changelog
 
+## [4.1.1-dev](https://github.com/fsdh-pfds/datahub-docs/compare/v4.1.0-dev...v4.1.1-dev) (2025-04-15)
+
+
+### Bug Fixes
+
+* Cdgfsdfgsd ([eefe9f0](https://github.com/fsdh-pfds/datahub-docs/commit/eefe9f00d114c64335e2d808d533ad4f318027c4))
+
+
+### Miscellaneous Chores
+
+* release 4.1.1-dev ([4cee7cb](https://github.com/fsdh-pfds/datahub-docs/commit/4cee7cb64c02e49cc39c6116f862e25dea5d8604))
+
 ## [4.1.0-dev](https://github.com/fsdh-pfds/datahub-docs/compare/v4.0.1...v4.1.0-dev) (2025-04-15)
 
 
