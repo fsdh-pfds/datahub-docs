@@ -3,23 +3,26 @@ name: Generate Release PR
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - main
-
-permissions:
-  contents: write
-  pull-requests: write
 
 jobs:
   release-please:
     runs-on: ubuntu-latest
     steps:
+      - name: Create App token
+        id: create_token
+        uses: fsdh-pfds/.github/.github/actions/create-app-token@main
+        with:
+          app-id: ${{ vars.FSDH_DOCS_RELEASE_APP_ID }}
+          private-key: ${{ secrets.FSDH_DOCS_RELEASE_APP_KEY }}
+
       - name: Checkout Code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4 
+        with:
+          token: ${{ steps.create_token.outputs.token }}
 
       - name: Create Release PR
         uses: googleapis/release-please-action@v4
         with:
-          token: ${{ secrets.MY_RELEASE_PLEASE_TOKEN }}
           release-type: simple
+          config-file: release-please-config.json
+          token: ${{ steps.create_token.outputs.token }}
