@@ -64,5 +64,5 @@
   "include-component-in-tag": false,
   "include-v-in-tag": true,
   "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json",
-  ".": "3.0.4"
+  ".": "3.0.5"
 }
