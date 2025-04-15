@@ -1,5 +1,12 @@
 # Changelog
 
+## [4.0.1](https://github.com/fsdh-pfds/datahub-docs/compare/v4.0.0...v4.0.1) (2025-04-15)
+
+
+### Bug Fixes
+
+* sdfgsdfg ([b586e2b](https://github.com/fsdh-pfds/datahub-docs/commit/b586e2b611a4ddd03b5a6e43fb51bd401bd623b5))
+
 ## [4.0.0](https://github.com/fsdh-pfds/datahub-docs/compare/v3.0.9...v4.0.0) (2025-04-15)
 
 
