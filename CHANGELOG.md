@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.0.2](https://github.com/fsdh-pfds/datahub-docs/compare/v3.0.1...v3.0.2) (2025-04-15)
+
+
+### Bug Fixes
+
+* create version tag ([885c634](https://github.com/fsdh-pfds/datahub-docs/commit/885c6345ff5463ee9bcab90c2b94824508aabaed))
+
 ## [3.0.1](https://github.com/fsdh-pfds/datahub-docs/compare/v3.0.0...v3.0.1) (2025-04-15)
 
 
