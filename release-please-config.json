@@ -1,12 +1,8 @@
 {
-  "packages": {
-    ".": {
-      "release-type": "simple",
-      "changelog-path": "CHANGELOG.md",
-      "prerelease": true,
-      "pull-request-title-pattern": "chore: FSDH Docs release v${version}"
-    }
-  },
+  "release-type": "simple",
+  "changelog-path": "CHANGELOG.md",
+  "prerelease": true,
+  "pull-request-title-pattern": "chore: FSDH Docs release v${version}",
   "changelog-sections": [
     {
       "type": "feat",
