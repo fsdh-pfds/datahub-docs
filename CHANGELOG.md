@@ -1,5 +1,12 @@
 # Changelog
 
+## [4.1.0-dev](https://github.com/fsdh-pfds/datahub-docs/compare/v4.0.1...v4.1.0-dev) (2025-04-15)
+
+
+### Miscellaneous Chores
+
+* release 4.1.0 ([eace301](https://github.com/fsdh-pfds/datahub-docs/commit/eace301a9d3ca205bbdb1b696f13cbfcc4573964))
+
 ## [4.0.1](https://github.com/fsdh-pfds/datahub-docs/compare/v4.0.0...v4.0.1) (2025-04-15)
 
 
