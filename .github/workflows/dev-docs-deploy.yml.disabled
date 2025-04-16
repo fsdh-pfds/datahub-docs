@@ -4,9 +4,8 @@ name: Dev Deployment
 on:
   push:
     branches: ["main"]
-    paths-ignore:
-      - ".*"          # Ignore root-level dotfiles
-      - ".*/**"       # Ignore root-level dot directories and their contents
+    paths:
+      - "content/**"
       
 permissions:
   id-token: write
@@ -33,7 +32,7 @@ jobs:
           echo "Deploying to Dev..."
           STORAGE_ACCOUNT_NAME="${{ secrets.STORAGE_ACCOUNT_NAME }}"
           CONTAINER_NAME="${{ secrets.CONTAINER_NAME }}"
-          LOCAL_PATH="."
+          LOCAL_PATH="./content"
 
           az storage blob upload-batch \
             --account-name $STORAGE_ACCOUNT_NAME \
