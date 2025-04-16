@@ -1,4 +1,4 @@
-name: Preprod and Production Deployment
+name: 2. Preprod and Production Deployment
 
 on:
   workflow_dispatch:

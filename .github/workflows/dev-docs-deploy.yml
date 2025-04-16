@@ -1,5 +1,5 @@
 ---
-name: Dev Deployment
+name: 1. Dev Deployment
 
 on:
   push:
